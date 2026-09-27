@@ -22,9 +22,8 @@ public class Main {
         Iterator<Map.Entry<Character, Integer>> it = map.entrySet().iterator();
 
         while(it.hasNext()){
-            // System.out.println(it.next().getKey()+" : "+it.next().getValue());
             Map.Entry<Character, Integer> entry = it.next();
-            // System.out.println(entry.getKey()+" : "+entry.getValue());
+            System.out.println(entry.getKey()+" : "+entry.getValue());
         }
 
         for(Map.Entry<Character, Integer> entry: map.entrySet()){
